@@ -1,0 +1,61 @@
+/* Profile.css */
+.profile-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.applications-section {
+  margin-top: 20px;
+}
+
+.application-item {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.application-item h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.application-item p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Base button styling for a smaller, cleaner look */
+.accept-button, .reject-button {
+  font-size: 14px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 4px 4px 0; /* Small space between buttons */
+  transition: background-color 0.3s ease;
+}
+
+/* Accept button styles */
+.accept-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.accept-button:hover {
+  background-color: #45a049;
+}
+
+/* Reject button styles */
+.reject-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.reject-button:hover {
+  background-color: #da190b;
+}

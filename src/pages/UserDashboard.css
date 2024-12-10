@@ -1,0 +1,60 @@
+/* src/pages/Dashboard.css */
+
+.dashboard {
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.dashboard h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-card h3 {
+  font-size: 1.2em;
+  color: #ff5e5e;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 1.5em;
+  color: #333;
+  font-weight: bold;
+}
+.dashboard {
+  padding: 20px;
+  /* Add any additional styling for the dashboard */
+}
+
+.logout-button {
+  background-color: #ff4c4c; /* Red background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Vertical and horizontal padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+  margin-top: 20px; /* Space above the button */
+  float: right; /* Align the button to the right */
+}
+
+.logout-button:hover {
+  background-color: #ff0000; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}

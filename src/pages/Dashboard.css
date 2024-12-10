@@ -1,0 +1,117 @@
+/* src/pages/Dashboard.css */
+.dashboard {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-content p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .dashboard-links li {
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .dashboard-links a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dashboard-links a:hover {
+    background-color: #0056b3;
+  }
+  .dashboard {
+    padding: 20px;
+    /* Additional styling for the dashboard */
+}
+
+.dashboard-header {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space between header elements */
+    align-items: center; /* Center items vertically */
+}
+
+.logout-button {
+    background-color: #ff4c4c; /* Red background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 5px 10px; /* Smaller padding for a compact look */
+    border-radius: 3px; /* Slightly rounded corners */
+    font-size: 14px; /* Smaller font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+}
+
+.logout-button:hover {
+    background-color: #ff0000; /* Darker red on hover */
+    transform: translateY(-1px); /* Slight lift effect on hover */
+}
+
+.dashboard-content {
+    margin-top: 20px; /* Add space above the content */
+}
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.dashboard-content {
+  margin-top: 20px;
+}
+
+.dashboard-links {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-links li {
+  margin: 10px 0;
+}

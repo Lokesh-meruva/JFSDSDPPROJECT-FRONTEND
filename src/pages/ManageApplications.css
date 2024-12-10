@@ -1,0 +1,71 @@
+/* ManageApplications.css */
+
+.manage-applications {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .manage-applications h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .applications-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .application-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .application-item h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .application-item button {
+    margin-right: 10px;
+    background-color: #dc3545; /* Bootstrap danger color for delete */
+  }
+  
+  .application-item button:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,125 @@
+/* UserLogin.css */
+
+.user-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.user-login h2 {
+  margin-bottom: 20px;
+  color: #333; /* Dark text color for contrast */
+  font-family: 'Arial', sans-serif;
+}
+
+.user-login form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  width: 300px; /* Fixed width for the form */
+}
+
+.user-login input {
+  margin-bottom: 15px; /* Space between inputs */
+  padding: 10px; /* Inner padding for inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 16px; /* Larger font size for better readability */
+}
+
+.user-login button {
+  background-color: #007bff; /* Bootstrap primary color (blue) */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Vertical and horizontal padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Consistent font size */
+}
+
+.user-login button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* UserLogin.css */
+
+.user-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* Gradient background */
+}
+
+.user-login h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.user-login form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+.user-login input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-login input:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+  outline: none;
+}
+
+.user-login button {
+  background-color: #6a11cb;
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.user-login button:hover {
+  background-color: #2575fc;
+}
+
+.user-login button:active {
+  transform: scale(0.98); /* Slightly shrink on click */
+}
+
+.user-login p {
+  color: #ffffff;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.user-login a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.user-login a:hover {
+  text-decoration: underline;
+}
